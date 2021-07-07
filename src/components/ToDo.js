@@ -18,7 +18,7 @@ const ToDo = () => {
                 <h1 style={{color: "white" , marginBottom: "40px" , marginTop:"-50px", fontSize:"5rem"}}>
                 
                 <ReactTypingEffect speed={100} eraseSpeed={100} eraseDelay={2000} typingDelay={100}
-                    text={["ToDoList With Redux"]}/>
+                    text={["ToDoList With Redux By Yashan"]}/>
                 </h1>
                     <img src={todo} alt="todoLogo" />
                     <figcaption> Add Your List Here ✌</figcaption>
