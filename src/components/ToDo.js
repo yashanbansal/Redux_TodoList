@@ -14,12 +14,13 @@ const ToDo = () => {
         <>
         <div className="main-div">
             <div className="child-div">
-                <figure>
-                <h1 style={{color: "white" , marginBottom: "40px" , marginTop:"-50px", fontSize:"5rem"}}>
-                
-                <ReactTypingEffect speed={100} eraseSpeed={100} eraseDelay={2000} typingDelay={100}
-                    text={["ToDoList With Redux By Yashan"]}/>
-                </h1>
+            <div>
+            <h1 style={{color: "white" , marginBottom: "40px" , marginTop:"-50px", fontSize:"5rem" , position:"fixed" , marginLeft:"-120px"}}>
+                <ReactTypingEffect speed={100} eraseSpeed={100} eraseDelay={2000} typingDelay={100} 
+                    text={["ToDoList With Redux By Yashan"]} />
+            </h1>
+            </div>
+                <figure style={{marginTop: "50px"}}>
                     <img src={todo} alt="todoLogo" />
                     <figcaption> Add Your List Here ✌</figcaption>
                 </figure>
